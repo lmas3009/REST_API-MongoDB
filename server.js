@@ -9,7 +9,7 @@ var port = process.env.PORT || 8080
 app.use(express.json())
 app.use(Cors())
 
-var Connection_url = 'mongodb+srv://Rest-API_lmas:RQVkHH6Z0Vwz6ZmP@cluster0.gklyj.mongodb.net/restapilmas?retryWrites=true&w=majority'
+var Connection_url = 'mongodb+srv://Rest-API_lmas:<password>@cluster0.gklyj.mongodb.net/<dbname>?retryWrites=true&w=majority'
 
 mongoose.connect(Connection_url, {
     useNewUrlParser: true,
