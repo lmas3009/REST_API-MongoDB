@@ -9,4 +9,4 @@ Rest API using MEN (MongoDB, ExpressJs and NodeJs)
 
 
 For Car details go to :
-https://restapi-cars.herokuapp.com/Cars
+https://restapi-cars.herokuapp.com/Cars   (Just sample data)
